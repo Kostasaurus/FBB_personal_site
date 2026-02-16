@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage.jsx"
 import SemesterOnePage from "./pages/SemesterOnePage.jsx"
 import SemesterTwoPage from "./pages/SemesterTwoPage.jsx"
 
+
 function App() {
   
   const routes = {

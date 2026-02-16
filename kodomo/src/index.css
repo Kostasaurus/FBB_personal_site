@@ -302,6 +302,7 @@
             color: var(--color-lichen-glow);
             text-shadow: 0 0 10px var(--color-accent-700);
         }
+    }
 
         .select-primary:hover {
 
@@ -320,7 +321,7 @@
 
 
     }
-}
+
 
 
 

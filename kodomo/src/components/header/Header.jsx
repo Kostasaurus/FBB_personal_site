@@ -79,7 +79,7 @@ const Header = () => {
                           </li>
                           <li>
                               <a
-                                href="https://kodomo.fbb.msu.ru/wiki/2025"
+                                href="https://fbb.msu.ru/"
                                 target='_blank'
                                 className="font-medium text-xl link-primary transition-colors"
                               >
@@ -119,7 +119,7 @@ const Header = () => {
                                className="px-4 py-2 font-medium  select-primary transition-colors">I семестр</a>
                             <a href="index.html?/semesters2"
                                className="px-4 py-2 font-medium  select-primary transition-colors">II семестр</a>
-                            <a href="https://kodomo.fbb.msu.ru/wiki/2025"
+                            <a href="https://fbb.msu.ru/"
                                target='_blank'
                                className="px-4 py-2 font-medium  select-primary transition-colors">Сайт ФББ</a>
                             

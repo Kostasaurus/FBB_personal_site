@@ -36,7 +36,7 @@ export default function Hero() {
   transition-all duration-700 ease-out flex items-center justify-center dark: bg-glow-700/10! dark:hover:bg-glow-700/20!"
 					href='index.html?/about'>
 						<i className="fas fa-dna mr-6 group-hover:rotate-90 transition-transform duration-700"></i>
-						<span className="group-hover:text-glow-500 group-hover:text-2xl transition-all duration-700">Обо мне</span>
+						<span className="group-hover:text-glow-500 group-hover:text-2xl has-hover:transition-all duration-700">Обо мне</span>
 						<i className="fas fa-dna ml-6 group-hover:-rotate-90 transition-transform duration-700"></i>
 					
 					</a>
