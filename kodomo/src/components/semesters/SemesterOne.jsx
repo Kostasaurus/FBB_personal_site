@@ -8,7 +8,7 @@ export default function SemesterOne () {
 		},
 		{
 			title: "Мини-обзор",
-			href: "https://drive.google.com/file/d/14DqG8qjFVhG5GDUvs2fVHMVEQ5X44knt/view?usp=sharing",
+			href: "index.html?/minireview",
 			icon: "scroll",
 		},
 		{
@@ -29,14 +29,14 @@ export default function SemesterOne () {
 			
 			
 			<header className="mb-12 flex flex-col items-center">
-			<h2 className="text-6xl md:text-7xl font-bold mb-4">
+				<h2 className="text-6xl md:text-7xl font-bold mb-4">
             <span className="text-primary-500 dark:text-shadow-glow dark:text-glow-500 inline-block">
              <span className="text-8xl  inline-block"> Ⅰ</span> Семестр
              
             </span>
-			</h2>
-			<p className="  text-center w-24 h-1 bg-primary-500 dark:bg-glow-500 rounded-full"></p>
-		</header>
+				</h2>
+				<p className="  text-center w-24 h-1 bg-primary-500 dark:bg-glow-500 rounded-full"></p>
+			</header>
 			
 			<div className="glass-gradient mb-10 rounded-2xl p-6 text-center">
 				<p className="text-xl md:text-2xl text-gray-700 dark:text-gray-200">

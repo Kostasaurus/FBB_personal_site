@@ -4,6 +4,7 @@ import PageNotFound from "./pages/PageNotFound.jsx"
 import AboutPage from "./pages/AboutPage.jsx"
 import SemesterOnePage from "./pages/SemesterOnePage.jsx"
 import SemesterTwoPage from "./pages/SemesterTwoPage.jsx"
+import MiniReviewPage from "./pages/MiniReviewPage.jsx"
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     '*': PageNotFound,
     '/about':AboutPage,
     '/semesters1':SemesterOnePage,
-    '/semesters2':SemesterTwoPage
+    '/semesters2':SemesterTwoPage,
+    '/minireview': MiniReviewPage
     
     
     
