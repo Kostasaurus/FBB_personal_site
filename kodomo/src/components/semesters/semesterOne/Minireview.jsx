@@ -1,10 +1,10 @@
-import lengthsHist from "../../assets/Histogram of protein lengths for Geobacter metallireducens .png"
-import intervalMin from "../../assets/Intervals between CDS on - strand.png"
-import intervalPlus from "../../assets/Intervals between CDS on + strand.png"
-import intersectMin from "../../assets/Intersecting CDS on - strand.png"
-import intesectPlus from "../../assets/Intersecting CDS on + strand.png"
-import intersection from "../../assets/CDS interactions.png"
-import graph from "../../assets/Screenshot 2026-02-28 154330.png"
+import lengthsHist from "../../../assets/Histogram of protein lengths for Geobacter metallireducens .png"
+import intervalMin from "../../../assets/Intervals between CDS on - strand.png"
+import intervalPlus from "../../../assets/Intervals between CDS on + strand.png"
+import intersectMin from "../../../assets/Intersecting CDS on - strand.png"
+import intesectPlus from "../../../assets/Intersecting CDS on + strand.png"
+import intersection from "../../../assets/CDS interactions.png"
+import graph from "../../../assets/Screenshot 2026-02-28 154330.png"
 
 export default function Minireview() {
 	const handleLinkClick = () => {

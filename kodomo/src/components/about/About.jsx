@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import {useRef, useState} from "react";
 import useClickOutside from "../../hooks/useClickOutside.jsx";
 import avatar from '../../assets/avatar.png'
 

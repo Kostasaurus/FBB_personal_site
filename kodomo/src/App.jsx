@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage.jsx"
 import SemesterOnePage from "./pages/SemesterOnePage.jsx"
 import SemesterTwoPage from "./pages/SemesterTwoPage.jsx"
 import MiniReviewPage from "./pages/MiniReviewPage.jsx"
+import ProteinStructurePage from "./pages/ProteinStructurePage.jsx"
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     '/about':AboutPage,
     '/semesters1':SemesterOnePage,
     '/semesters2':SemesterTwoPage,
-    '/minireview': MiniReviewPage
+    '/minireview': MiniReviewPage,
+    '/proteinstr': ProteinStructurePage
     
     
     
