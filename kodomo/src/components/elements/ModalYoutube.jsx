@@ -18,8 +18,7 @@ export function ModalYoutube (props) {
 		<div className="p-5">
 			
 			<div className="grid grid-cols-1 gap-20 md:mx-40 mb-3 px-3 md:p-4">
-				{/*<div className="flex justify-center items-center space-x-5 pr-5 pb-5">*/}
-					
+				
 				<div className=" font-bold text-3xl text-center">
 					<p><span className="text-gradient"> У меня пока нет</span> <span className="text-glow-500">youtube-канала,</span>
 					</p>
@@ -32,7 +31,6 @@ export function ModalYoutube (props) {
 					>
 						Понятно
 					</button>
-				{/*</div>*/}
 			</div>
 		</div>
 	
