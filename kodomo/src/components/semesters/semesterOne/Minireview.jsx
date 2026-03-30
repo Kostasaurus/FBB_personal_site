@@ -226,7 +226,7 @@ export default function Minireview() {
 						residues. (It’s interesting, that amount of proteins with size from 180 to 240 breaks out
 						from the general pattern and it is 50 CDSs less than neighboring from the both sides)
 					</p>
-					<img alt="Figure 1" className="rounded-2xl my-7 w-full" src={lengthsHist}/>
+					<img alt="Figure 1" className="rounded-2xl my-7  mx-auto block w-1/2" src={lengthsHist}/>
 					<label>Figure 1. Histogram of protein lengths for G. metallireducens</label>
 					
 					<h4 className="text-lg font-semibold mb-2 mt-8">Inter CDS intervals</h4>
@@ -240,9 +240,9 @@ export default function Minireview() {
 						CDSs have intervals with the length below 0. It means that CDSs intersect. Such
 						intersections have been studied in more detail in the next section.</p>
 					</p>
-					<img alt="Figure 2" className="rounded-2xl my-7 w-full" src={intervalPlus}/>
+					<img alt="Figure 2" className="rounded-2xl my-7  mx-auto block w-1/2" src={intervalPlus}/>
 					<label>Figure 2. Histogram of intervals between CDS on + strand</label>
-					<img alt="Figure 3" className="rounded-2xl my-7 w-full" src={intervalMin}/>
+					<img alt="Figure 3" className="rounded-2xl my-7  mx-auto block w-1/2" src={intervalMin}/>
 					<label>Figure 3. Histogram of intervals between CDS on - strand</label>
 					<h4 className="text-lg font-semibold mb-2 mt-8">CDS intersections</h4>
 					<p>
@@ -268,9 +268,9 @@ export default function Minireview() {
 						cytochromes and specific metal-reducing enzymes. To explore these assumptions there has
 						been the functional analysis of the close CDSs. The results are discussed in section 4.
 					</p>
-					<img alt="Figure 4" className="rounded-2xl my-7 w-full" src={intesectPlus}/>
+					<img alt="Figure 4" className="rounded-2xl my-7  mx-auto block w-1/2" src={intesectPlus}/>
 					<label>Figure 4. Histogram of intersected CDS on + strand</label>
-					<img alt="Figure 5" className="rounded-2xl my-7 w-full" src={intersectMin}/>
+					<img alt="Figure 5" className="rounded-2xl my-7  mx-auto block w-1/2" src={intersectMin}/>
 					<label>Figure 5. Histogram of intersected CDS on - strand</label>
 					
 					<h4 className="text-lg font-semibold mb-2 mt-8">Interacting CDS analysis</h4>
@@ -306,9 +306,9 @@ export default function Minireview() {
 						regulation, as does one of their neighbouring CDS.
 					</p>
 					
-					<img alt="Figure 6" className="rounded-2xl my-7 w-full" src={graph}/>
+					<img alt="Figure 6" className="rounded-2xl my-7 mx-auto block w-1/2" src={graph}/>
 					<label>Figure 6. Number of regions from max_length parameter</label>
-					<img alt="Figure 7" className="rounded-2xl my-7 w-full" src={intersection}/>
+					<img alt="Figure 7" className="rounded-2xl my-7 mx-auto block w-1/2" src={intersection}/>
 					<label>Figure 7. Histogram of numbers of CDS in the interacting region for max_length=33</label>
 					
 				</section>

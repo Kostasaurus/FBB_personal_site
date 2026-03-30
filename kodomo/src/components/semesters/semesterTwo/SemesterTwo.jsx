@@ -3,9 +3,14 @@ export default function SemesterTwo () {
 	
 	const works = [
 		{
-			title: "Практикум 3",
+			title: "Блок 2",
 			href: "index.html?/proteinstr",
-			icon: "tube",
+			icon: "atom",
+		},
+		{
+			title: "Uniprot",
+			href: "index.html?/uniprot",
+			icon: "laptop",
 		},
 		
 	]
@@ -27,12 +32,12 @@ export default function SemesterTwo () {
 						<p className="  text-center w-24 h-1 bg-primary-500 dark:bg-glow-500 rounded-full"></p>
 					</header>
 					<section>
-						<div className="grid grid-cols-1 gap-6 mb-10">
+						<div className="grid grid-cols-2 gap-15 mb-10">
 							{works.map((item) => (
 								<a
 									href={item.href}
 									// target="_blank"
-									className="group btn-primary p-4  rounded-2xl! not-dark:bg-primary-100! not-dark:border-mystic-400!
+									className="group btn-primary p-4 rounded-2xl! not-dark:bg-primary-100! not-dark:border-mystic-400!
   font-semibold text-xl relative overflow-hidden
   hover:scale-110 hover:shadow-3xl hover:shadow-primary-500/30
   transition-all duration-700 ease-out flex items-baseline justify-center  dark: bg-glow-700/10! dark:hover:bg-glow-700/20! "

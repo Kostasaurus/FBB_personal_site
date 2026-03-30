@@ -6,6 +6,7 @@ import SemesterOnePage from "./pages/SemesterOnePage.jsx"
 import SemesterTwoPage from "./pages/SemesterTwoPage.jsx"
 import MiniReviewPage from "./pages/MiniReviewPage.jsx"
 import ProteinStructurePage from "./pages/ProteinStructurePage.jsx"
+import UniprotPage from "./pages/UniprotPage.jsx"
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     '/semesters1':SemesterOnePage,
     '/semesters2':SemesterTwoPage,
     '/minireview': MiniReviewPage,
-    '/proteinstr': ProteinStructurePage
+    '/proteinstr': ProteinStructurePage,
+    '/uniprot': UniprotPage
     
     
     

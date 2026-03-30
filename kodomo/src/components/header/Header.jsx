@@ -52,10 +52,13 @@ const Header = () => {
                               </a>
                           </li>
                           <li
-                          ref={semesterNavRef}>
+                          ref={semesterNavRef}
+                          onMouseLeave={() => setTimeout(() =>setShowSemesterNav(!showSemesterNav), 100)}
+                          >
                               <button
                               className="font-medium text-xl link-primary transition-colors"
-                              onClick={() => setShowSemesterNav(!showSemesterNav)}
+                              onMouseEnter={() => setShowSemesterNav(!showSemesterNav)}
+                              
                               >
                                   
                                   <i className={`pr-2 ${showSemesterNav ? "fas fa-angle-up" : "fas fa-angle-down"}`}></i>
