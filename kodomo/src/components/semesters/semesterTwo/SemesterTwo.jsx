@@ -12,6 +12,11 @@ export default function SemesterTwo () {
 			href: "index.html?/uniprot",
 			icon: "laptop",
 		},
+		{
+			title: "Proteom",
+			href: "index.html?/proteom",
+			icon: "bacterium"
+		}
 		
 	]
 	
