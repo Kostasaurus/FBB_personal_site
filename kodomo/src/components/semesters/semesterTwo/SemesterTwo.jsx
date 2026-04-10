@@ -16,6 +16,11 @@ export default function SemesterTwo () {
 			title: "Proteom",
 			href: "index.html?/proteom",
 			icon: "bacterium"
+		},
+		{
+			title: "Pr9",
+			href: "index.html?/pr9",
+			icon: "code"
 		}
 		
 	]
