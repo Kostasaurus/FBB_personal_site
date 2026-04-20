@@ -21,6 +21,11 @@ export default function SemesterTwo () {
 			title: "Pr9",
 			href: "index.html?/pr9",
 			icon: "code"
+		},
+		{
+			title: "pr10",
+			href: "index.html?/pr10",
+			icon: "gun"
 		}
 		
 	]

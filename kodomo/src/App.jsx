@@ -8,6 +8,8 @@ import MiniReviewPage from "./pages/MiniReviewPage.jsx"
 import ProteinStructurePage from "./pages/ProteinStructurePage.jsx"
 import UniprotPage from "./pages/UniprotPage.jsx"
 import ProteomPage from "./pages/ProteomPage.jsx"
+import Pr9Page from "./pages/Pr9Page.jsx"
+import Pr10Page from "./pages/Pr10Page.jsx"
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
     '/minireview': MiniReviewPage,
     '/proteinstr': ProteinStructurePage,
     '/uniprot': UniprotPage,
-    '/proteom': ProteomPage
+    '/proteom': ProteomPage,
+    '/pr9': Pr9Page,
+    '/pr10': Pr10Page
     
     
     

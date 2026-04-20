@@ -184,7 +184,7 @@ export default function About() {
 								</h4>
 								<p className="text-center">
 									
-									<span className="ml-2 text-indigo-600 dark:text-indigo-400 font-bold text-lg">10 356 кубков</span>
+									<span className="ml-2 text-indigo-600 dark:text-indigo-400 font-bold text-lg">10 500 кубков</span>
 								</p>
 							</div>
 						</div>
